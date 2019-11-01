@@ -16,11 +16,11 @@ NC='\033[0m'
 
 # Menu
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -139,11 +139,11 @@ if [[ $CHECKSYSTEM ]]; then
 
 		clear
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -221,11 +221,11 @@ else
 
 	clear
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -259,11 +259,11 @@ fi
 
 		clear
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -335,11 +335,11 @@ fi
 
 clear
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -390,11 +390,11 @@ exit
 
 		if [[ $NEWPASSWORD = $RETYPEPASSWORD ]]; then
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -443,11 +443,11 @@ if [ $? -eq 0 ]; then
 	EXP="$(chage -l $CLIENT | grep "Account expires" | awk -F": " '{print $2}')"
 	echo -e "$CLIENT\n$CLIENT\n"|passwd $CLIENT &> /dev/null
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -487,11 +487,11 @@ fi
 
 clear
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -647,11 +647,11 @@ TXTOTAL=$(vnstat -i $INTERFACE | grep "tx:" | awk '{print $5" "substr ($9, 1, 1)
 
 clear
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -881,11 +881,11 @@ if [[ ! -e /usr/local/bin/Banwidth-Per-Client ]]; then
 	chmod +x /usr/local/bin/Banwidth-Per-Client
 	clear
 	echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -898,11 +898,11 @@ if [[ ! -e /usr/local/bin/Banwidth-Per-Client ]]; then
 else
 	clear
 	echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -920,11 +920,11 @@ fi
 
 clear
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -1004,11 +1004,11 @@ fi
 
 clear
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -1092,11 +1092,11 @@ esac
 
 clear
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -1179,11 +1179,11 @@ esac
 
 clear
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
@@ -1410,11 +1410,11 @@ esac
 
 clear
     echo ""
-		echo '###############################\n'
-	echo '# 							  	#\n'
-	echo '#      >>>> Mai Yasha <<<<        #\n'
-	echo '#                                 #\n'
-	echo '###################################\n\n'                                   
+		printf '###############################\n'
+	printf '# 							  	#\n'
+	printf '#      >>>> Mai Yasha <<<<        #\n'
+	printf '#                                 #\n'
+	printf '###################################\n\n'                                   
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""

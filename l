@@ -28,7 +28,7 @@
 	echo -e " |${GRAY}1${NC}| DNS Current System"
 	echo -e " |${GRAY}2${NC}| DNS Google"
 	echo ""
-	read -p "DNS : " -e -i 1 DNS
+	read -p "DNS : " -e -i 2 DNS
 	echo ""
 	echo -e " |${GRAY}1${NC}| 1 ไฟล์เชื่อมต่อได้ 1 เครื่องเท่านั้น แต่สามารถสร้างไฟล์เพิ่มได้"
 	echo -e " |${GRAY}2${NC}| 1 ไฟล์เชื่อมต่อได้หลายเครื่อง แต่ต้องใช้ชื่อบัญชีและรหัสผ่านเพื่อใช้เชื่อมต่อ"
@@ -350,7 +350,7 @@ END
 	fi
 
 
-	wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Menu"
+	wget -O /usr/local/bin/menu "https://raw.githubusercontent.com//sunshineep2/MaiYasha/master/Menu"
 	chmod +x /usr/local/bin/menu
 	apt-get -y install vnstat
 	
