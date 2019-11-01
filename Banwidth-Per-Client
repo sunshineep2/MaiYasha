@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#scir
 
 STATUS = "/etc/openvpn/openvpn-status.log"
 status_file = open(STATUS, 'r')  

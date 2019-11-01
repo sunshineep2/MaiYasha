@@ -25,7 +25,7 @@ NC='\033[0m'
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "เมนูสคริปท์ ${GRAY}ZENON-AUTO-VPN${NC}"
+	echo -e "เมนูสคริปท์ ${GRAY}MAI YASHA-AUTO-VPN${NC}"
 	echo ""
 	echo -e "|${GRAY} 1${NC}| เพิ่มบัญชีผู้ใช้ OpenVPN"
 	echo -e "|${GRAY} 2${NC}| เพิ่มบัญชีผู้ใช้ SSH (HTTP)"
@@ -53,7 +53,7 @@ if [[ -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "|${GRAY}00${NC}| CHANGE TO ENGLISH"
 
 elif [[ ! -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "MENU SCRIPT ${GRAY}ZENON-AUTO-VPN${NC}"
+	echo -e "MENU SCRIPT ${GRAY}MAI YASHA-AUTO-VPN${NC}"
 	echo ""
 	echo -e "|${GRAY} 1${NC}| ADD NEW CLIENT FOR OPENVPN"
 	echo -e "|${GRAY} 2${NC}| ADD NEW CLIENT FOR SSH (HTTP)"
@@ -617,7 +617,7 @@ if [[ -e /usr/local/bin/speedtest ]]; then
 	clear
 	speedtest --share
 elif [[ ! -e /usr/local/bin/speedtest ]]; then
-	wget -O /usr/local/bin/speedtest "https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Speedtest"
+	wget -O /usr/local/bin/speedtest "https://raw.githubusercontent.com/sunshineep2/MaiYasha/master/Speedtest"
 	chmod +x /usr/local/bin/speedtest
 	clear
 	speedtest --share
@@ -656,7 +656,7 @@ clear
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "แบนด์วิดท์ ${GRAY}ZENON-AUTO-VPN${NC}"
+	echo -e "แบนด์วิดท์ ${GRAY}MAI YASHA-AUTO-VPN${NC}"
 	echo ""
 	echo -e "วันนี้ ${GRAY}$TODAY${NC}"
 	echo -e "เมื่อวานนี้ ${GRAY}$YESTERDAY${NC}"
@@ -673,7 +673,7 @@ if [[ -e /usr/local/bin/Check-Thai ]]; then
 	exit
 
 elif [[ ! -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "BANDWIDTH ${GRAY}ZENON-AUTO-VPN${NC}"
+	echo -e "BANDWIDTH ${GRAY}MAI YASHA-AUTO-VPN${NC}"
 	echo ""
 	echo -e "TODAY ${GRAY}$TODAY${NC}"
 	echo -e "YESTERDAY ${GRAY}$YESTERDAY${NC}"
@@ -877,7 +877,7 @@ exit
 
 if [[ ! -e /usr/local/bin/Banwidth-Per-Client ]]; then
 	apt-get install python
-	wget -O /usr/local/bin/Banwidth-Per-Client "https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Banwidth-Per-Client"
+	wget -O /usr/local/bin/Banwidth-Per-Client "https://raw.githubusercontent.com/sunshineep2/MaiYasha/master/Banwidth-Per-Client"
 	chmod +x /usr/local/bin/Banwidth-Per-Client
 	clear
 	echo ""
@@ -1187,7 +1187,7 @@ clear
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
-echo -e "เปิด-ปิด-รีสตาร์ท การทำงานของระบบ ${GRAY}ZENON-AUTO-VPN${NC}"
+echo -e "เปิด-ปิด-รีสตาร์ท การทำงานของระบบ ${GRAY}MAI YASHA-AUTO-VPN${NC}"
 echo ""
 echo -e "|${GRAY}1${NC}| OPENVPN"
 echo -e "|${GRAY}2${NC}| SSH DROPBEAR"
@@ -1418,7 +1418,7 @@ clear
     echo "#BY FB : ใหม่ ยา'าฉะ"
     echo "#Donate : TrueWallet : 065-320-0028"
     echo ""
-echo -e "แก้ไขคอนฟิกต่างๆในระบบ ${GRAY}ZENON-AUTO-VPN${NC}"
+echo -e "แก้ไขคอนฟิกต่างๆในระบบ ${GRAY}MAI YASHA-AUTO-VPN${NC}"
 echo ""
 echo -e "|${GRAY}1${NC}| OPENVPN ไฟล์ต้นแบบการสร้างคอนฟิก"
 echo -e "|${GRAY}2${NC}| OPENVPN ไฟล์ข้อมูลเซิฟเวอร์"
@@ -1459,10 +1459,10 @@ esac
 	0) # ==================================================================================================================
 
 rm -f /usr/local/bin/menu
-wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Menu"
+wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/sunshineep2/MaiYasha/master/Menu"
 chmod +x /usr/local/bin/menu
 rm -f /usr/local/bin/Auto-Delete-Client 
-wget -O /usr/local/bin/Auto-Delete-Client "https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Auto-Delete-Client"
+wget -O /usr/local/bin/Auto-Delete-Client "https://raw.githubusercontent.com/sunshineep2/MaiYasha/master/Auto-Delete-Client"
 chmod +x /usr/local/bin/Auto-Delete-Client
 menu
 
