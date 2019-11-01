@@ -80,7 +80,7 @@ clear
 			
 	echo ""
     read -p "โปรดใส่รหัสสำหรับติดตั้งสคลิปนี้.. : " passwds
-wget -q -O /usr/bin/pass www.script-zenon.tk/zenonvpn/m.txt
+wget -q -O /usr/bin/pass www.script-zenon.tk/zenonvpn/z.txt
 if ! grep -w -q $passwds /usr/bin/pass; then
 clear
 echo ""
